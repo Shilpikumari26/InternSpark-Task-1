@@ -1,0 +1,109 @@
+.tasks-page {
+    max-width: 600px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.task-input input,
+.task-input select {
+    padding: 8px;
+}
+
+.task-input button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.task div {
+    flex: 1;
+}
+
+.task small {
+    display: block;
+    color: gray;
+}
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.low .badge {
+    background: green;
+}
+
+.medium .badge {
+    background: orange;
+}
+
+.high .badge {
+    background: red;
+}
+
+.done strong {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Header with Logout */
+
+.tasks-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+/* Logout Button */
+
+.logout-btn {
+    background: #dc2626;
+    /* red */
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background: #b91c1c;
+    transform: scale(1.05);
+}
